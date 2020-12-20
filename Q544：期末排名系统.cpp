@@ -10,7 +10,7 @@ int main()
     long int A[40];
     printf("Input the total number of the students(n<40):");
     scanf("%d",&n);
-    printf("Input student¡¯s ID and score as: MT  EN  PH:\n");
+    printf("Input studentÂ¡Â¯s ID and score as: MT  EN  PH:\n");
     for (i=0;i<n;i++)
     {
         scanf("%ld %d %d %d",&A[i],&B[i],&C[i],&D[i]);
@@ -34,7 +34,7 @@ void result(long int A[],float aver[],int B[],int C[],int D[],int sum[],int n)
         sum3+=D[i];
     }
     printf("Counting Result:\n");
-    printf("Student¡¯s ID\t  MT \t  EN \t  PH \t SUM \t AVER\n");
+    printf("StudentÂ¡Â¯s ID\t  MT \t  EN \t  PH \t SUM \t AVER\n");
     for (i=0;i<n;i++)
     {
         for (j=0;j<n;j++)
