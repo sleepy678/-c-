@@ -7,7 +7,7 @@ void Percent(float Score[],int n);
 void Print(long int A[],float Score[],int n);
 int main()
 {
-	long int A[30]={11003001,11003005,11003003,11003002,11003004,11003006};//AΪѧ�� 
+	long int A[30]={11003001,11003005,11003003,11003002,11003004,11003006};//AÎªÑ§ºÅ 
 	float Score[30]={87,98,75,48,65,100};
 	int i,j,n=6,choosenum=1;
 	printf("Input student number(n<30)\n");
@@ -27,7 +27,7 @@ int main()
         scanf("%d",&choosenum);
         switch(choosenum)
             {
-			case 1:
+	    case 1:
                 Scan(A,Score,n);
                 break;
             case 2:
